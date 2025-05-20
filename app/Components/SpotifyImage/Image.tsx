@@ -3,7 +3,7 @@ export default function ImageSpotify () {
     return (
         
         <div >
-            <img className="w-full" src="/spotifyImage.jpg" alt="Disc" />
+            <img className="absolute inset-0 h-full w-full object-cover" src="/spotifyImage.jpg" alt="Disc" />
         </div>
     )
 }
